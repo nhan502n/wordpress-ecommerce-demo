@@ -1,0 +1,198 @@
+[09-Feb-2025 02:04:46 UTC] PHP Warning:  sprintf(): Too few arguments in /home/duynhani/public_html/wp-admin/includes/class-bulk-upgrader-skin.php on line 208
+[09-Feb-2025 02:05:01 UTC] PHP Warning:  sprintf(): Too few arguments in /home/duynhani/public_html/wp-admin/includes/class-bulk-upgrader-skin.php on line 208
+[09-Feb-2025 02:05:57 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/duynhani/public_html/wp-content/themes/flatsome/inc/admin/envato_setup/envato_setup.php on line 1745
+[09-Feb-2025 02:36:31 UTC] PHP Fatal error:  Uncaught Error: Call to a member function update_meta() on null in /home/duynhani/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php:295
+Stack trace:
+#0 /home/duynhani/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php(168): ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->save_conditions(69, Array)
+#1 [internal function]: ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->ajax_save_theme_template_conditions(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#2 /home/duynhani/public_html/wp-content/plugins/elementor/core/common/modules/ajax/module.php(176): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#3 /home/duynhani/public_html/wp-includes/class-wp-hook.php(324): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#4 /home/duynhani/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#5 /home/duynhani/publ in /home/duynhani/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php on line 295
+[09-Feb-2025 04:15:22 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT a.action_id FROM 74FyGiKG_actionscheduler_actions a WHERE 1=1 AND a.hook='wc_schedule_pending_batch_processes' AND a.status IN ('in-progress', 'pending') LIMIT 0, 1 made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, Automattic\WooCommerce\Internal\BatchProcessing\BatchProcessingController->Automattic\WooCommerce\Internal\BatchProcessing\{closure}, Automattic\WooCommerce\Internal\BatchProcessing\BatchProcessingController->remove_or_retry_failed_processors, call_user_func, as_has_scheduled_action, ActionScheduler_Store->query_action, ActionScheduler_DBStore->query_actions
+[09-Feb-2025 04:15:22 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT option_value FROM 74FyGiKG_options WHERE option_name = 'wc_pending_batch_processes' LIMIT 1 made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, Automattic\WooCommerce\Internal\BatchProcessing\BatchProcessingController->Automattic\WooCommerce\Internal\BatchProcessing\{closure}, Automattic\WooCommerce\Internal\BatchProcessing\BatchProcessingController->remove_or_retry_failed_processors, Automattic\WooCommerce\Internal\BatchProcessing\BatchProcessingController->get_enqueued_processors, get_option
+[09-Feb-2025 04:15:22 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT option_value FROM 74FyGiKG_options WHERE option_name = 'action_scheduler_lock_async-request-runner' made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, ActionScheduler_QueueRunner->maybe_dispatch_async_request, ActionScheduler_Lock->is_locked, ActionScheduler_OptionLock->get_expiration, ActionScheduler_OptionLock->get_existing_lock
+[09-Feb-2025 04:15:22 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT option_value FROM 74FyGiKG_options WHERE option_name = 'action_scheduler_lock_async-request-runner' made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, ActionScheduler_QueueRunner->maybe_dispatch_async_request, ActionScheduler_OptionLock->set, ActionScheduler_OptionLock->get_existing_lock
+[09-Feb-2025 04:15:22 UTC] WordPress database error Commands out of sync; you can't run this command now for query INSERT INTO `74FyGiKG_options` (`option_name`, `option_value`, `autoload`) VALUES ('action_scheduler_lock_async-request-runner', '67a82bda9b50a8.76837067|1739074582', 'no') made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, ActionScheduler_QueueRunner->maybe_dispatch_async_request, ActionScheduler_OptionLock->set
+[09-Feb-2025 04:20:45 UTC] PHP Fatal error:  Uncaught Error: Call to a member function update_meta() on bool in /home/duynhani/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php:295
+Stack trace:
+#0 /home/duynhani/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php(168): ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->save_conditions(NULL, Array)
+#1 [internal function]: ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->ajax_save_theme_template_conditions(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#2 /home/duynhani/public_html/wp-content/plugins/elementor/core/common/modules/ajax/module.php(176): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#3 /home/duynhani/public_html/wp-includes/class-wp-hook.php(324): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#4 /home/duynhani/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#5 /home/duynhani/pu in /home/duynhani/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php on line 295
+[09-Feb-2025 04:22:30 UTC] PHP Fatal error:  Uncaught Error: Call to a member function update_meta() on bool in /home/duynhani/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php:295
+Stack trace:
+#0 /home/duynhani/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php(168): ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->save_conditions(NULL, Array)
+#1 [internal function]: ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->ajax_save_theme_template_conditions(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#2 /home/duynhani/public_html/wp-content/plugins/elementor/core/common/modules/ajax/module.php(176): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#3 /home/duynhani/public_html/wp-includes/class-wp-hook.php(324): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#4 /home/duynhani/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#5 /home/duynhani/pu in /home/duynhani/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php on line 295
+[09-Feb-2025 04:23:16 UTC] PHP Fatal error:  Uncaught Error: Call to a member function update_meta() on bool in /home/duynhani/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php:295
+Stack trace:
+#0 /home/duynhani/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php(168): ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->save_conditions(NULL, Array)
+#1 [internal function]: ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->ajax_save_theme_template_conditions(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#2 /home/duynhani/public_html/wp-content/plugins/elementor/core/common/modules/ajax/module.php(176): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#3 /home/duynhani/public_html/wp-includes/class-wp-hook.php(324): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#4 /home/duynhani/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#5 /home/duynhani/pu in /home/duynhani/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php on line 295
+[09-Feb-2025 04:31:46 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/duynhani/public_html/wp-content/themes/flatsome/inc/admin/envato_setup/envato_setup.php on line 1745
+[09-Feb-2025 04:37:41 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/duynhani/public_html/wp-content/themes/flatsome/inc/admin/envato_setup/envato_setup.php on line 1745
+[22-Feb-2025 23:27:19 UTC] Exception caught in get_preset. Invalid preset.. Args: Array
+(
+    [0] => default-preset
+)
+..
+[23-Feb-2025 02:53:11 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT 74FyGiKG_posts.* FROM 74FyGiKG_posts WHERE ID IN (618,575) made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Cart_Session->maybe_set_cart_cookies, WC_Cart->is_empty, WC_Cart->get_cart, WC_Cart_Session->get_cart_from_session, _prime_post_caches
+[23-Feb-2025 02:53:11 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT post_id, meta_key, meta_value FROM 74FyGiKG_postmeta WHERE post_id IN (618,575) ORDER BY meta_id ASC made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Cart_Session->maybe_set_cart_cookies, WC_Cart->is_empty, WC_Cart->get_cart, WC_Cart_Session->get_cart_from_session, _prime_post_caches, update_postmeta_cache, update_meta_cache
+[23-Feb-2025 02:53:11 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT * FROM 74FyGiKG_posts WHERE ID = 618 LIMIT 1 made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Cart_Session->maybe_set_cart_cookies, WC_Cart->is_empty, WC_Cart->get_cart, WC_Cart_Session->get_cart_from_session, _prime_post_caches, array_map, get_post_type, get_post, WP_Post::get_instance
+[23-Feb-2025 02:53:11 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT * FROM 74FyGiKG_posts WHERE ID = 575 LIMIT 1 made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Cart_Session->maybe_set_cart_cookies, WC_Cart->is_empty, WC_Cart->get_cart, WC_Cart_Session->get_cart_from_session, _prime_post_caches, array_map, get_post_type, get_post, WP_Post::get_instance
+[23-Feb-2025 02:53:11 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT * FROM 74FyGiKG_posts WHERE ID = 618 LIMIT 1 made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Cart_Session->maybe_set_cart_cookies, WC_Cart->is_empty, WC_Cart->get_cart, WC_Cart_Session->get_cart_from_session, wc_get_product, WC_Product_Factory->get_product, WC_Product_Factory::get_product_type, WC_Data_Store->__call, WC_Product_Data_Store_CPT->get_product_type, get_post_type, get_post, WP_Post::get_instance
+[23-Feb-2025 02:53:11 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT * FROM 74FyGiKG_posts WHERE ID = 618 LIMIT 1 made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Cart_Session->maybe_set_cart_cookies, WC_Cart->is_empty, WC_Cart->get_cart, WC_Cart_Session->get_cart_from_session, wc_get_product, WC_Product_Factory->get_product, WC_Product_Simple->__construct, WC_Product->__construct, WC_Data_Store->read, WC_Product_Data_Store_CPT->read, get_post, WP_Post::get_instance
+[23-Feb-2025 02:53:11 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT * FROM 74FyGiKG_posts WHERE ID = 575 LIMIT 1 made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Cart_Session->maybe_set_cart_cookies, WC_Cart->is_empty, WC_Cart->get_cart, WC_Cart_Session->get_cart_from_session, wc_get_product, WC_Product_Factory->get_product, WC_Product_Factory::get_product_type, WC_Data_Store->__call, WC_Product_Data_Store_CPT->get_product_type, get_post_type, get_post, WP_Post::get_instance
+[23-Feb-2025 02:53:11 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT * FROM 74FyGiKG_posts WHERE ID = 575 LIMIT 1 made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Cart_Session->maybe_set_cart_cookies, WC_Cart->is_empty, WC_Cart->get_cart, WC_Cart_Session->get_cart_from_session, wc_get_product, WC_Product_Factory->get_product, WC_Product_Simple->__construct, WC_Product->__construct, WC_Data_Store->read, WC_Product_Data_Store_CPT->read, get_post, WP_Post::get_instance
+[23-Feb-2025 02:53:11 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT a.action_id FROM 74FyGiKG_actionscheduler_actions a WHERE 1=1 AND a.hook='wc_schedule_pending_batch_processes' AND a.status IN ('in-progress', 'pending') LIMIT 0, 1 made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, Automattic\WooCommerce\Internal\BatchProcessing\BatchProcessingController->Automattic\WooCommerce\Internal\BatchProcessing\{closure}, Automattic\WooCommerce\Internal\BatchProcessing\BatchProcessingController->remove_or_retry_failed_processors, call_user_func, as_has_scheduled_action, ActionScheduler_Store->query_action, ActionScheduler_DBStore->query_actions
+[23-Feb-2025 02:53:11 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT option_value FROM 74FyGiKG_options WHERE option_name = 'wc_pending_batch_processes' LIMIT 1 made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, Automattic\WooCommerce\Internal\BatchProcessing\BatchProcessingController->Automattic\WooCommerce\Internal\BatchProcessing\{closure}, Automattic\WooCommerce\Internal\BatchProcessing\BatchProcessingController->remove_or_retry_failed_processors, Automattic\WooCommerce\Internal\BatchProcessing\BatchProcessingController->get_enqueued_processors, get_option
+[23-Feb-2025 02:53:11 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT option_value FROM 74FyGiKG_options WHERE option_name = 'action_scheduler_lock_async-request-runner' made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, ActionScheduler_QueueRunner->maybe_dispatch_async_request, ActionScheduler_Lock->is_locked, ActionScheduler_OptionLock->get_expiration, ActionScheduler_OptionLock->get_existing_lock
+[23-Feb-2025 02:53:11 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT option_value FROM 74FyGiKG_options WHERE option_name = 'action_scheduler_lock_async-request-runner' made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, ActionScheduler_QueueRunner->maybe_dispatch_async_request, ActionScheduler_OptionLock->set, ActionScheduler_OptionLock->get_existing_lock
+[23-Feb-2025 02:53:11 UTC] WordPress database error Commands out of sync; you can't run this command now for query INSERT INTO `74FyGiKG_options` (`option_name`, `option_value`, `autoload`) VALUES ('action_scheduler_lock_async-request-runner', '67ba8d97308272.56597781|1740279251', 'no') made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, ActionScheduler_QueueRunner->maybe_dispatch_async_request, ActionScheduler_OptionLock->set
+[23-Feb-2025 02:53:11 UTC] WordPress database error Commands out of sync; you can't run this command now for query SHOW FULL COLUMNS FROM `74FyGiKG_woocommerce_sessions` made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Session_Handler->save_data
+[23-Feb-2025 02:53:11 UTC] WordPress database error Commands out of sync; you can't run this command now for query SHOW FULL COLUMNS FROM `74FyGiKG_woocommerce_sessions` made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Session_Handler->save_data, WC_Session_Handler->delete_session
+[23-Feb-2025 14:39:24 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT 74FyGiKG_posts.* FROM 74FyGiKG_posts WHERE ID IN (618,575) made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Cart_Session->maybe_set_cart_cookies, WC_Cart->is_empty, WC_Cart->get_cart, WC_Cart_Session->get_cart_from_session, _prime_post_caches
+[23-Feb-2025 14:39:24 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT post_id, meta_key, meta_value FROM 74FyGiKG_postmeta WHERE post_id IN (618,575) ORDER BY meta_id ASC made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Cart_Session->maybe_set_cart_cookies, WC_Cart->is_empty, WC_Cart->get_cart, WC_Cart_Session->get_cart_from_session, _prime_post_caches, update_postmeta_cache, update_meta_cache
+[23-Feb-2025 14:39:24 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT * FROM 74FyGiKG_posts WHERE ID = 618 LIMIT 1 made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Cart_Session->maybe_set_cart_cookies, WC_Cart->is_empty, WC_Cart->get_cart, WC_Cart_Session->get_cart_from_session, _prime_post_caches, array_map, get_post_type, get_post, WP_Post::get_instance
+[23-Feb-2025 14:39:24 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT * FROM 74FyGiKG_posts WHERE ID = 575 LIMIT 1 made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Cart_Session->maybe_set_cart_cookies, WC_Cart->is_empty, WC_Cart->get_cart, WC_Cart_Session->get_cart_from_session, _prime_post_caches, array_map, get_post_type, get_post, WP_Post::get_instance
+[23-Feb-2025 14:39:24 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT * FROM 74FyGiKG_posts WHERE ID = 618 LIMIT 1 made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Cart_Session->maybe_set_cart_cookies, WC_Cart->is_empty, WC_Cart->get_cart, WC_Cart_Session->get_cart_from_session, wc_get_product, WC_Product_Factory->get_product, WC_Product_Factory::get_product_type, WC_Data_Store->__call, WC_Product_Data_Store_CPT->get_product_type, get_post_type, get_post, WP_Post::get_instance
+[23-Feb-2025 14:39:24 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT * FROM 74FyGiKG_posts WHERE ID = 618 LIMIT 1 made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Cart_Session->maybe_set_cart_cookies, WC_Cart->is_empty, WC_Cart->get_cart, WC_Cart_Session->get_cart_from_session, wc_get_product, WC_Product_Factory->get_product, WC_Product_Simple->__construct, WC_Product->__construct, WC_Data_Store->read, WC_Product_Data_Store_CPT->read, get_post, WP_Post::get_instance
+[23-Feb-2025 14:39:24 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT * FROM 74FyGiKG_posts WHERE ID = 575 LIMIT 1 made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Cart_Session->maybe_set_cart_cookies, WC_Cart->is_empty, WC_Cart->get_cart, WC_Cart_Session->get_cart_from_session, wc_get_product, WC_Product_Factory->get_product, WC_Product_Factory::get_product_type, WC_Data_Store->__call, WC_Product_Data_Store_CPT->get_product_type, get_post_type, get_post, WP_Post::get_instance
+[23-Feb-2025 14:39:24 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT * FROM 74FyGiKG_posts WHERE ID = 575 LIMIT 1 made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Cart_Session->maybe_set_cart_cookies, WC_Cart->is_empty, WC_Cart->get_cart, WC_Cart_Session->get_cart_from_session, wc_get_product, WC_Product_Factory->get_product, WC_Product_Simple->__construct, WC_Product->__construct, WC_Data_Store->read, WC_Product_Data_Store_CPT->read, get_post, WP_Post::get_instance
+[23-Feb-2025 14:39:24 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT a.action_id FROM 74FyGiKG_actionscheduler_actions a WHERE 1=1 AND a.hook='wc_schedule_pending_batch_processes' AND a.status IN ('in-progress', 'pending') LIMIT 0, 1 made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, Automattic\WooCommerce\Internal\BatchProcessing\BatchProcessingController->Automattic\WooCommerce\Internal\BatchProcessing\{closure}, Automattic\WooCommerce\Internal\BatchProcessing\BatchProcessingController->remove_or_retry_failed_processors, call_user_func, as_has_scheduled_action, ActionScheduler_Store->query_action, ActionScheduler_DBStore->query_actions
+[23-Feb-2025 14:39:24 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT option_value FROM 74FyGiKG_options WHERE option_name = 'wc_pending_batch_processes' LIMIT 1 made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, Automattic\WooCommerce\Internal\BatchProcessing\BatchProcessingController->Automattic\WooCommerce\Internal\BatchProcessing\{closure}, Automattic\WooCommerce\Internal\BatchProcessing\BatchProcessingController->remove_or_retry_failed_processors, Automattic\WooCommerce\Internal\BatchProcessing\BatchProcessingController->get_enqueued_processors, get_option
+[23-Feb-2025 14:39:24 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT option_value FROM 74FyGiKG_options WHERE option_name = 'action_scheduler_lock_async-request-runner' made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, ActionScheduler_QueueRunner->maybe_dispatch_async_request, ActionScheduler_Lock->is_locked, ActionScheduler_OptionLock->get_expiration, ActionScheduler_OptionLock->get_existing_lock
+[23-Feb-2025 14:39:24 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT option_value FROM 74FyGiKG_options WHERE option_name = 'action_scheduler_lock_async-request-runner' made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, ActionScheduler_QueueRunner->maybe_dispatch_async_request, ActionScheduler_OptionLock->set, ActionScheduler_OptionLock->get_existing_lock
+[23-Feb-2025 14:39:24 UTC] WordPress database error Commands out of sync; you can't run this command now for query INSERT INTO `74FyGiKG_options` (`option_name`, `option_value`, `autoload`) VALUES ('action_scheduler_lock_async-request-runner', '67bb331cc44687.79281451|1740321624', 'no') made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, ActionScheduler_QueueRunner->maybe_dispatch_async_request, ActionScheduler_OptionLock->set
+[23-Feb-2025 14:39:24 UTC] WordPress database error Commands out of sync; you can't run this command now for query SHOW FULL COLUMNS FROM `74FyGiKG_woocommerce_sessions` made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Session_Handler->save_data
+[23-Feb-2025 14:39:24 UTC] WordPress database error Commands out of sync; you can't run this command now for query SHOW FULL COLUMNS FROM `74FyGiKG_woocommerce_sessions` made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Session_Handler->save_data, WC_Session_Handler->delete_session
+[24-Feb-2025 01:24:27 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT umeta_id FROM 74FyGiKG_usermeta WHERE meta_key = '74FyGiKG_yoast_notifications' AND user_id = 1 made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, Yoast_Notification_Center->update_storage, Yoast_Notification_Center->remove_storage, delete_user_option, delete_user_meta, delete_metadata
+[24-Feb-2025 12:00:21 UTC] Error in variation ID 933: Mismatch in array lengths or non-array arguments.
+[24-Feb-2025 12:00:21 UTC] Array
+(
+)
+
+[24-Feb-2025 12:00:21 UTC] Array
+(
+    [attribute_mau] => Blue
+)
+
+[24-Feb-2025 12:00:21 UTC] Error in variation ID 934: Mismatch in array lengths or non-array arguments.
+[24-Feb-2025 12:00:21 UTC] Array
+(
+)
+
+[24-Feb-2025 12:00:21 UTC] Array
+(
+    [attribute_mau] => Gray
+)
+
+[24-Feb-2025 12:00:21 UTC] Error in variation ID 935: Mismatch in array lengths or non-array arguments.
+[24-Feb-2025 12:00:21 UTC] Array
+(
+)
+
+[24-Feb-2025 12:00:21 UTC] Array
+(
+    [attribute_mau] => Black
+)
+
+[24-Feb-2025 12:04:18 UTC] Error in variation ID 933: Mismatch in array lengths or non-array arguments.
+[24-Feb-2025 12:04:18 UTC] Array
+(
+)
+
+[24-Feb-2025 12:04:18 UTC] Array
+(
+    [attribute_mau] => Blue
+)
+
+[24-Feb-2025 12:04:18 UTC] Error in variation ID 934: Mismatch in array lengths or non-array arguments.
+[24-Feb-2025 12:04:18 UTC] Array
+(
+)
+
+[24-Feb-2025 12:04:18 UTC] Array
+(
+    [attribute_mau] => Gray
+)
+
+[24-Feb-2025 12:04:18 UTC] Error in variation ID 935: Mismatch in array lengths or non-array arguments.
+[24-Feb-2025 12:04:18 UTC] Array
+(
+)
+
+[24-Feb-2025 12:04:18 UTC] Array
+(
+    [attribute_mau] => Black
+)
+
+[24-Feb-2025 12:16:37 UTC] Error in variation ID 938: Mismatch in array lengths or non-array arguments.
+[24-Feb-2025 12:16:37 UTC] Array
+(
+)
+
+[24-Feb-2025 12:16:37 UTC] Array
+(
+    [attribute_mau] => Xanh
+)
+
+[24-Feb-2025 12:16:37 UTC] Error in variation ID 939: Mismatch in array lengths or non-array arguments.
+[24-Feb-2025 12:16:37 UTC] Array
+(
+)
+
+[24-Feb-2025 12:16:37 UTC] Array
+(
+    [attribute_mau] => Đen
+)
+
+[24-Feb-2025 12:16:37 UTC] Error in variation ID 940: Mismatch in array lengths or non-array arguments.
+[24-Feb-2025 12:16:37 UTC] Array
+(
+)
+
+[24-Feb-2025 12:16:37 UTC] Array
+(
+    [attribute_mau] => Xanh lá
+)
+
+[24-Feb-2025 12:16:37 UTC] Error in variation ID 933: Mismatch in array lengths or non-array arguments.
+[24-Feb-2025 12:16:37 UTC] Array
+(
+)
+
+[24-Feb-2025 12:16:37 UTC] Array
+(
+    [attribute_mau] => Blue
+)
+
+[24-Feb-2025 12:16:37 UTC] Error in variation ID 934: Mismatch in array lengths or non-array arguments.
+[24-Feb-2025 12:16:37 UTC] Array
+(
+)
+
+[24-Feb-2025 12:16:37 UTC] Array
+(
+    [attribute_mau] => Gray
+)
+
+[24-Feb-2025 12:16:37 UTC] Error in variation ID 935: Mismatch in array lengths or non-array arguments.
+[24-Feb-2025 12:16:37 UTC] Array
+(
+)
+
+[24-Feb-2025 12:16:37 UTC] Array
+(
+    [attribute_mau] => Black
+)
+
